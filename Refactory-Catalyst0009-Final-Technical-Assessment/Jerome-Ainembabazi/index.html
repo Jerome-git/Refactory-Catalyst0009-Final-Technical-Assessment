@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Student Registration Form</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Sur name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Given name</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="col-4" id="imageupload">
+              <img id="blah" src="#" alt=""/>
+              <input accept="image/*" type="file" id="imglnp" title="upload photo" name="upload">
+          </div>
+          <label for = "title">Title:</label>
+          <select   name ="title" >
+              <option  selected = "empty" value="Default" >select title </option>
+              <option value= "UG">Uganda </option>
+              <option value= "KY">Kenya </option>
+              <option value= "TZ">Tanzania </option>
+              <option value= "RW">Rwanda </option>
+              <option value= "US">United States</option>
+              <option value= "UK">United Kingdom</option>
+            </select>
+          <div class="gender-details">
+            
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h5>Date of Birth</h5>
+                    <input type="text" placeholder="Date of Birth" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <label for = "title">Country</label>
+          <select   name ="title" >
+              <option  selected = "empty" value="Default" >Select Country </option>
+              <option value= "UG">Uganda </option>
+              <option value= "KY">Kenya </option>
+              <option value= "TZ">Tanzania </option>
+              <option value= "RW">Rwanda </option>
+              <option value= "US">United States</option>
+              <option value= "UK">United Kingdom</option>
+            </select>
+            </div>
+            <div class="input-box">
+                <span class="details">Place of Residence</span>
+                <input type="text" placeholder="Confirm your password" required>
+              </div>
+          <div class="input-box">
+            <span class="details">Nationality</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
